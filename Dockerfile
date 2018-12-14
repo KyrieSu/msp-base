@@ -1,8 +1,8 @@
 FROM nvidia/cuda:9.0-devel-ubuntu16.04
 
 ENV CUDNN_VERSION=7.0.5.15-1+cuda9.0
-ENV TENSORFLOW_VERSION=1.11.0
-ENV KERAS_VERSION=2.2.4
+ENV TENSORFLOW_VERSION=1.10.0
+ENV KERAS_VERSION=2.2.0
 ENV PYTHON_VERSION=3.5
 
 RUN echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64 /" > /etc/apt/sources.list.d/nvidia-ml.list
